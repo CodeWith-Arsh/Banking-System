@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Banking_System;
 
-namespace Banking_System
+namespace BankingSystem
 {
     public abstract class Account
     {
@@ -27,5 +23,6 @@ namespace Banking_System
             return $"Account Number: {AccountNumber}, Balance: {Balance}, Account Holder: {AccountHolder.Name}";
         }
     }
+
 
 }
